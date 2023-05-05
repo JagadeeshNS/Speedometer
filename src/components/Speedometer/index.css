@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  color: white;
+  font-family: 'roboto';
+}
+.image {
+  height: 60vh;
+}
+.main-heading {
+  font-style: italic;
+}
+.accelerate-button {
+  color: white;
+  background-color: rgb(20, 107, 189);
+  border-radius: 10px;
+  padding: 4px;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  border-style: none;
+  margin: 5px;
+}
+.apply-brake-button {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 4px;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  border-style: solid;
+  border-color: white;
+  margin: 5px;
+}
